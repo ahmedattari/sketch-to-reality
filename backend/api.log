@@ -1,0 +1,300 @@
+2025-08-05 13:52:06,313 - app.main - INFO - Starting Sketch to Reality API...
+2025-08-05 13:52:06,313 - app.main - INFO - Debug mode: True
+2025-08-05 13:52:06,313 - app.main - INFO - Stable Diffusion WebUI URL: http://127.0.0.1:7860
+2025-08-05 13:52:06,313 - app.main - INFO - Upload directory: uploads
+2025-08-05 13:52:14,331 - app.main - INFO - Shutting down Sketch to Reality API...
+2025-08-05 13:52:17,571 - app.main - INFO - Starting Sketch to Reality API...
+2025-08-05 13:52:17,571 - app.main - INFO - Debug mode: True
+2025-08-05 13:52:17,571 - app.main - INFO - Stable Diffusion WebUI URL: http://127.0.0.1:7860
+2025-08-05 13:52:17,571 - app.main - INFO - Upload directory: uploads
+2025-08-05 13:53:36,238 - app.api.routes - INFO - Processing image: {'width': 190, 'height': 122, 'mode': 'RGB', 'format': 'JPEG'}
+2025-08-05 13:53:36,238 - app.services.sd_service - INFO - Generating image with prompt: a realistic house...
+2025-08-05 13:53:36,242 - app.services.sd_service - ERROR - SD API error: 404 - {"detail":"Not Found"}
+2025-08-05 13:53:36,243 - app.services.sd_service - ERROR - SD generation error: Stable Diffusion API error: 404
+2025-08-05 13:53:36,243 - app.api.routes - ERROR - Error generating image: Image generation failed: Stable Diffusion API error: 404
+2025-08-05 15:29:14,822 - app.api.routes - INFO - Processing image: {'width': 190, 'height': 122, 'mode': 'RGB', 'format': 'JPEG'}
+2025-08-05 15:29:14,823 - app.services.sd_service - INFO - Generating image with prompt: a beautiful landscape...
+2025-08-05 15:29:14,836 - app.services.sd_service - ERROR - SD API error: 500 - {"error":"ValidationError","detail":"","body":"","errors":"2 validation errors for ControlNetUnit\nresize_mode\n   (type=assertion_error)\ncontrol_mode\n  value is not a valid enumeration member; permitted: 'Balanced', 'My prompt is more important', 'ControlNet is more important' (type=type_error.enum; enum_values=[<ControlMode.BALANCED: 'Balanced'>, <ControlMode.PROMPT: 'My prompt is more important'>, <ControlMode.CONTROL: 'ControlNet is more important'>])"}
+2025-08-05 15:29:14,837 - app.services.sd_service - ERROR - SD generation error: Stable Diffusion API error: 500
+2025-08-05 15:29:14,837 - app.api.routes - ERROR - Error generating image: Image generation failed: Stable Diffusion API error: 500
+2025-08-05 15:30:28,657 - app.api.routes - INFO - Processing image: {'width': 190, 'height': 122, 'mode': 'RGB', 'format': 'JPEG'}
+2025-08-05 15:30:28,658 - app.services.sd_service - INFO - Generating image with prompt: a beautiful landscape...
+2025-08-05 15:30:28,664 - app.services.sd_service - ERROR - SD API error: 500 - {"error":"ValidationError","detail":"","body":"","errors":"2 validation errors for ControlNetUnit\nresize_mode\n   (type=assertion_error)\ncontrol_mode\n  value is not a valid enumeration member; permitted: 'Balanced', 'My prompt is more important', 'ControlNet is more important' (type=type_error.enum; enum_values=[<ControlMode.BALANCED: 'Balanced'>, <ControlMode.PROMPT: 'My prompt is more important'>, <ControlMode.CONTROL: 'ControlNet is more important'>])"}
+2025-08-05 15:30:28,664 - app.services.sd_service - ERROR - SD generation error: Stable Diffusion API error: 500
+2025-08-05 15:30:28,664 - app.api.routes - ERROR - Error generating image: Image generation failed: Stable Diffusion API error: 500
+2025-08-05 15:32:48,580 - app.api.routes - INFO - Processing image: {'width': 190, 'height': 122, 'mode': 'RGB', 'format': 'JPEG'}
+2025-08-05 15:32:48,580 - app.services.sd_service - INFO - Generating image with prompt: a beautiful landscape...
+2025-08-05 15:32:48,587 - app.services.sd_service - ERROR - SD API error: 500 - {"error":"ValidationError","detail":"","body":"","errors":"2 validation errors for ControlNetUnit\nresize_mode\n   (type=assertion_error)\ncontrol_mode\n  value is not a valid enumeration member; permitted: 'Balanced', 'My prompt is more important', 'ControlNet is more important' (type=type_error.enum; enum_values=[<ControlMode.BALANCED: 'Balanced'>, <ControlMode.PROMPT: 'My prompt is more important'>, <ControlMode.CONTROL: 'ControlNet is more important'>])"}
+2025-08-05 15:32:48,587 - app.services.sd_service - ERROR - SD generation error: Stable Diffusion API error: 500
+2025-08-05 15:32:48,587 - app.api.routes - ERROR - Error generating image: Image generation failed: Stable Diffusion API error: 500
+2025-08-05 15:36:34,481 - app.main - INFO - Shutting down Sketch to Reality API...
+2025-08-05 15:36:34,907 - app.main - INFO - Starting Sketch to Reality API...
+2025-08-05 15:36:34,907 - app.main - INFO - Debug mode: True
+2025-08-05 15:36:34,907 - app.main - INFO - Stable Diffusion WebUI URL: http://127.0.0.1:7860
+2025-08-05 15:36:34,907 - app.main - INFO - Upload directory: uploads
+2025-08-05 15:36:41,439 - app.api.routes - INFO - Processing image: {'width': 190, 'height': 122, 'mode': 'RGB', 'format': 'JPEG'}
+2025-08-05 15:36:41,439 - app.services.sd_service - INFO - Generating image with prompt: a beautiful landscape...
+2025-08-05 15:36:41,444 - app.services.sd_service - ERROR - SD API error: 500 - {"error":"ValidationError","detail":"","body":"","errors":"1 validation error for ControlNetUnit\nresize_mode\n   (type=assertion_error)"}
+2025-08-05 15:36:41,444 - app.services.sd_service - ERROR - SD generation error: Stable Diffusion API error: 500
+2025-08-05 15:36:41,444 - app.api.routes - ERROR - Error generating image: Image generation failed: Stable Diffusion API error: 500
+2025-08-05 15:37:27,521 - app.main - INFO - Shutting down Sketch to Reality API...
+2025-08-05 15:37:27,935 - app.main - INFO - Starting Sketch to Reality API...
+2025-08-05 15:37:27,935 - app.main - INFO - Debug mode: True
+2025-08-05 15:37:27,935 - app.main - INFO - Stable Diffusion WebUI URL: http://127.0.0.1:7860
+2025-08-05 15:37:27,935 - app.main - INFO - Upload directory: uploads
+2025-08-05 15:37:32,791 - app.api.routes - INFO - Processing image: {'width': 190, 'height': 122, 'mode': 'RGB', 'format': 'JPEG'}
+2025-08-05 15:37:32,792 - app.services.sd_service - INFO - Generating image with prompt: a beautiful landscape...
+2025-08-05 15:37:32,798 - app.services.sd_service - ERROR - SD API error: 500 - {"error":"ValidationError","detail":"","body":"","errors":"1 validation error for ControlNetUnit\nresize_mode\n  'Scale to Fit' is not a valid ResizeMode (type=value_error)"}
+2025-08-05 15:37:32,798 - app.services.sd_service - ERROR - SD generation error: Stable Diffusion API error: 500
+2025-08-05 15:37:32,798 - app.api.routes - ERROR - Error generating image: Image generation failed: Stable Diffusion API error: 500
+2025-08-05 15:38:15,938 - app.main - INFO - Shutting down Sketch to Reality API...
+2025-08-05 15:38:18,159 - app.main - INFO - Starting Sketch to Reality API...
+2025-08-05 15:38:18,159 - app.main - INFO - Debug mode: True
+2025-08-05 15:38:18,159 - app.main - INFO - Stable Diffusion WebUI URL: http://127.0.0.1:7860
+2025-08-05 15:38:18,159 - app.main - INFO - Upload directory: uploads
+2025-08-05 15:38:22,023 - app.api.routes - INFO - Processing image: {'width': 190, 'height': 122, 'mode': 'RGB', 'format': 'JPEG'}
+2025-08-05 15:38:22,024 - app.services.sd_service - INFO - Generating image with prompt: a beautiful landscape...
+2025-08-05 15:38:22,030 - app.services.sd_service - ERROR - SD API error: 500 - {"error":"ValidationError","detail":"","body":"","errors":"1 validation error for ControlNetUnit\nresize_mode\n  'Scale to Fit' is not a valid ResizeMode (type=value_error)"}
+2025-08-05 15:38:22,030 - app.services.sd_service - ERROR - SD generation error: Stable Diffusion API error: 500
+2025-08-05 15:38:22,030 - app.api.routes - ERROR - Error generating image: Image generation failed: Stable Diffusion API error: 500
+2025-08-05 15:40:25,732 - app.main - INFO - Shutting down Sketch to Reality API...
+2025-08-05 15:40:26,169 - app.main - INFO - Starting Sketch to Reality API...
+2025-08-05 15:40:26,169 - app.main - INFO - Debug mode: True
+2025-08-05 15:40:26,169 - app.main - INFO - Stable Diffusion WebUI URL: http://127.0.0.1:7860
+2025-08-05 15:40:26,169 - app.main - INFO - Upload directory: uploads
+2025-08-05 15:40:29,085 - app.api.routes - INFO - Processing image: {'width': 190, 'height': 122, 'mode': 'RGB', 'format': 'JPEG'}
+2025-08-05 15:40:29,086 - app.services.sd_service - INFO - Generating image with prompt: a beautiful landscape...
+2025-08-05 15:40:32,555 - app.services.sd_service - ERROR - SD generation error: 'str' object has no attribute 'get'
+2025-08-05 15:40:32,555 - app.api.routes - ERROR - Error generating image: Image generation failed: 'str' object has no attribute 'get'
+2025-08-05 15:45:16,054 - app.main - INFO - Shutting down Sketch to Reality API...
+2025-08-05 15:45:16,478 - app.main - INFO - Starting Sketch to Reality API...
+2025-08-05 15:45:16,478 - app.main - INFO - Debug mode: True
+2025-08-05 15:45:16,478 - app.main - INFO - Stable Diffusion WebUI URL: http://127.0.0.1:7860
+2025-08-05 15:45:16,478 - app.main - INFO - Upload directory: uploads
+2025-08-05 15:45:20,531 - app.api.routes - INFO - Processing image: {'width': 190, 'height': 122, 'mode': 'RGB', 'format': 'JPEG'}
+2025-08-05 15:45:20,532 - app.services.sd_service - INFO - Generating image with prompt: a beautiful landscape...
+2025-08-05 15:45:20,537 - app.services.sd_service - ERROR - SD API error: 500 - {"error":"ValidationError","detail":"","body":"","errors":"1 validation error for ControlNetUnit\nresize_mode\n   (type=assertion_error)"}
+2025-08-05 15:45:20,537 - app.services.sd_service - ERROR - SD generation error: Stable Diffusion API error: 500
+2025-08-05 15:45:20,537 - app.api.routes - ERROR - Error generating image: Image generation failed: Stable Diffusion API error: 500
+2025-08-05 15:59:48,054 - app.api.routes - INFO - Processing image: {'width': 190, 'height': 122, 'mode': 'RGB', 'format': 'JPEG'}
+2025-08-05 15:59:48,054 - app.services.sd_service - INFO - Generating image with prompt: a beautiful landscape...
+2025-08-05 15:59:48,060 - app.services.sd_service - ERROR - SD API error: 500 - {"error":"ValidationError","detail":"","body":"","errors":"1 validation error for ControlNetUnit\nresize_mode\n   (type=assertion_error)"}
+2025-08-05 15:59:48,060 - app.services.sd_service - ERROR - SD generation error: Stable Diffusion API error: 500
+2025-08-05 15:59:48,060 - app.api.routes - ERROR - Error generating image: Image generation failed: Stable Diffusion API error: 500
+2025-08-05 16:10:48,483 - app.api.routes - INFO - Processing image: {'width': 190, 'height': 122, 'mode': 'RGB', 'format': 'JPEG'}
+2025-08-05 16:10:48,484 - app.services.sd_service - INFO - Generating image with prompt: a beautiful landscape...
+2025-08-05 16:10:48,488 - app.services.sd_service - ERROR - SD API error: 500 - {"error":"ValidationError","detail":"","body":"","errors":"1 validation error for ControlNetUnit\nresize_mode\n   (type=assertion_error)"}
+2025-08-05 16:10:48,488 - app.services.sd_service - ERROR - SD generation error: Stable Diffusion API error: 500
+2025-08-05 16:10:48,488 - app.api.routes - ERROR - Error generating image: Image generation failed: Stable Diffusion API error: 500
+2025-08-05 16:33:45,101 - app.api.routes - INFO - Processing image: {'width': 190, 'height': 122, 'mode': 'RGB', 'format': 'JPEG'}
+2025-08-05 16:33:45,101 - app.services.sd_service - INFO - Generating image with prompt: a beautiful landscape...
+2025-08-05 16:33:45,108 - app.services.sd_service - ERROR - SD API error: 500 - {"error":"ValidationError","detail":"","body":"","errors":"1 validation error for ControlNetUnit\nresize_mode\n   (type=assertion_error)"}
+2025-08-05 16:33:45,108 - app.services.sd_service - ERROR - SD generation error: Stable Diffusion API error: 500
+2025-08-05 16:33:45,108 - app.api.routes - ERROR - Error generating image: Image generation failed: Stable Diffusion API error: 500
+2025-08-05 16:54:40,776 - app.api.routes - INFO - Processing image: {'width': 190, 'height': 122, 'mode': 'RGB', 'format': 'JPEG'}
+2025-08-05 16:54:40,776 - app.services.sd_service - INFO - Generating image with prompt: beautiful landscape...
+2025-08-05 16:54:40,782 - app.services.sd_service - ERROR - SD API error: 500 - {"error":"ValidationError","detail":"","body":"","errors":"1 validation error for ControlNetUnit\nresize_mode\n   (type=assertion_error)"}
+2025-08-05 16:54:40,782 - app.services.sd_service - ERROR - SD generation error: Stable Diffusion API error: 500
+2025-08-05 16:54:40,782 - app.api.routes - ERROR - Error generating image: Image generation failed: Stable Diffusion API error: 500
+2025-08-05 17:02:22,503 - app.main - INFO - Shutting down Sketch to Reality API...
+2025-08-05 17:02:22,925 - app.main - INFO - Starting Sketch to Reality API...
+2025-08-05 17:02:22,925 - app.main - INFO - Debug mode: True
+2025-08-05 17:02:22,925 - app.main - INFO - Stable Diffusion WebUI URL: http://127.0.0.1:7860
+2025-08-05 17:02:22,925 - app.main - INFO - Upload directory: uploads
+2025-08-05 17:02:37,258 - app.api.routes - INFO - Processing image: {'width': 190, 'height': 122, 'mode': 'RGB', 'format': 'JPEG'}
+2025-08-05 17:02:37,259 - app.services.sd_service - INFO - Generating image with prompt: beautiful landscape...
+2025-08-05 17:02:37,266 - app.services.sd_service - ERROR - SD API error: 500 - {"error":"ValidationError","detail":"","body":"","errors":"1 validation error for ControlNetUnit\nresize_mode\n   (type=assertion_error)"}
+2025-08-05 17:02:37,266 - app.services.sd_service - ERROR - SD generation error: Stable Diffusion API error: 500
+2025-08-05 17:02:37,266 - app.api.routes - ERROR - Error generating image: Image generation failed: Stable Diffusion API error: 500
+2025-08-05 17:02:49,540 - app.api.routes - INFO - Processing image: {'width': 190, 'height': 122, 'mode': 'RGB', 'format': 'JPEG'}
+2025-08-05 17:02:49,541 - app.services.sd_service - INFO - Generating image with prompt: beautiful landscape...
+2025-08-05 17:02:49,547 - app.services.sd_service - ERROR - SD API error: 500 - {"error":"ValidationError","detail":"","body":"","errors":"1 validation error for ControlNetUnit\nresize_mode\n   (type=assertion_error)"}
+2025-08-05 17:02:49,547 - app.services.sd_service - ERROR - SD generation error: Stable Diffusion API error: 500
+2025-08-05 17:02:49,547 - app.api.routes - ERROR - Error generating image: Image generation failed: Stable Diffusion API error: 500
+2025-08-05 17:03:21,403 - app.api.routes - INFO - Processing image: {'width': 190, 'height': 122, 'mode': 'RGB', 'format': 'JPEG'}
+2025-08-05 17:03:21,403 - app.services.sd_service - INFO - Generating image with prompt: a beautiful landscape...
+2025-08-05 17:03:21,409 - app.services.sd_service - ERROR - SD API error: 500 - {"error":"ValidationError","detail":"","body":"","errors":"1 validation error for ControlNetUnit\nresize_mode\n   (type=assertion_error)"}
+2025-08-05 17:03:21,409 - app.services.sd_service - ERROR - SD generation error: Stable Diffusion API error: 500
+2025-08-05 17:03:21,409 - app.api.routes - ERROR - Error generating image: Image generation failed: Stable Diffusion API error: 500
+2025-08-05 17:04:31,408 - app.main - INFO - Shutting down Sketch to Reality API...
+2025-08-05 17:04:34,752 - app.main - INFO - Starting Sketch to Reality API...
+2025-08-05 17:04:34,752 - app.main - INFO - Debug mode: True
+2025-08-05 17:04:34,753 - app.main - INFO - Stable Diffusion WebUI URL: http://127.0.0.1:7860
+2025-08-05 17:04:34,753 - app.main - INFO - Upload directory: uploads
+2025-08-05 17:04:49,130 - app.api.routes - INFO - Processing image: {'width': 190, 'height': 122, 'mode': 'RGB', 'format': 'JPEG'}
+2025-08-05 17:04:49,131 - app.services.sd_service - INFO - Generating image with prompt: beautiful landscape...
+2025-08-05 17:04:49,137 - app.services.sd_service - ERROR - SD API error: 500 - {"error":"ValidationError","detail":"","body":"","errors":"1 validation error for ControlNetUnit\nresize_mode\n   (type=assertion_error)"}
+2025-08-05 17:04:49,137 - app.services.sd_service - ERROR - SD generation error: Stable Diffusion API error: 500
+2025-08-05 17:04:49,137 - app.api.routes - ERROR - Error generating image: Image generation failed: Stable Diffusion API error: 500
+2025-08-05 17:07:10,215 - app.api.routes - INFO - Processing image: {'width': 190, 'height': 122, 'mode': 'RGB', 'format': 'JPEG'}
+2025-08-05 17:07:10,215 - app.services.sd_service - INFO - Generating image with prompt: beautiful landscape...
+2025-08-05 17:07:10,220 - app.services.sd_service - ERROR - SD API error: 500 - {"error":"ValidationError","detail":"","body":"","errors":"1 validation error for ControlNetUnit\nresize_mode\n   (type=assertion_error)"}
+2025-08-05 17:07:10,220 - app.services.sd_service - ERROR - SD generation error: Stable Diffusion API error: 500
+2025-08-05 17:07:10,221 - app.api.routes - ERROR - Error generating image: Image generation failed: Stable Diffusion API error: 500
+2025-08-05 17:07:18,855 - app.api.routes - INFO - Processing image: {'width': 190, 'height': 122, 'mode': 'RGB', 'format': 'JPEG'}
+2025-08-05 17:07:18,856 - app.services.sd_service - INFO - Generating image with prompt: beautiful landscape...
+2025-08-05 17:07:18,860 - app.services.sd_service - ERROR - SD API error: 500 - {"error":"ValidationError","detail":"","body":"","errors":"1 validation error for ControlNetUnit\nresize_mode\n   (type=assertion_error)"}
+2025-08-05 17:07:18,860 - app.services.sd_service - ERROR - SD generation error: Stable Diffusion API error: 500
+2025-08-05 17:07:18,860 - app.api.routes - ERROR - Error generating image: Image generation failed: Stable Diffusion API error: 500
+2025-08-05 17:09:00,413 - app.main - INFO - Shutting down Sketch to Reality API...
+2025-08-05 17:09:00,822 - app.main - INFO - Starting Sketch to Reality API...
+2025-08-05 17:09:00,822 - app.main - INFO - Debug mode: True
+2025-08-05 17:09:00,822 - app.main - INFO - Stable Diffusion WebUI URL: http://127.0.0.1:7860
+2025-08-05 17:09:00,822 - app.main - INFO - Upload directory: uploads
+2025-08-05 17:09:11,145 - app.main - INFO - Shutting down Sketch to Reality API...
+2025-08-05 17:09:11,586 - app.main - INFO - Starting Sketch to Reality API...
+2025-08-05 17:09:11,586 - app.main - INFO - Debug mode: True
+2025-08-05 17:09:11,586 - app.main - INFO - Stable Diffusion WebUI URL: http://127.0.0.1:7860
+2025-08-05 17:09:11,586 - app.main - INFO - Upload directory: uploads
+2025-08-05 17:10:10,510 - app.main - INFO - Shutting down Sketch to Reality API...
+2025-08-05 17:10:10,918 - app.main - INFO - Starting Sketch to Reality API...
+2025-08-05 17:10:10,918 - app.main - INFO - Debug mode: True
+2025-08-05 17:10:10,918 - app.main - INFO - Stable Diffusion WebUI URL: http://127.0.0.1:7860
+2025-08-05 17:10:10,918 - app.main - INFO - Upload directory: uploads
+2025-08-05 17:10:14,026 - app.main - INFO - Shutting down Sketch to Reality API...
+2025-08-05 17:10:15,678 - app.main - INFO - Starting Sketch to Reality API...
+2025-08-05 17:10:15,678 - app.main - INFO - Debug mode: True
+2025-08-05 17:10:15,678 - app.main - INFO - Stable Diffusion WebUI URL: http://127.0.0.1:7860
+2025-08-05 17:10:15,678 - app.main - INFO - Upload directory: uploads
+2025-08-05 17:10:52,187 - app.api.routes - INFO - Processing image: {'width': 190, 'height': 122, 'mode': 'RGB', 'format': 'JPEG'}
+2025-08-05 17:10:52,187 - app.services.sd_service - INFO - Generating image with prompt: beautiful landscape...
+2025-08-05 17:10:52,194 - app.services.sd_service - ERROR - SD API error: 500 - {"error":"ValidationError","detail":"","body":"","errors":"1 validation error for ControlNetUnit\nresize_mode\n   (type=assertion_error)"}
+2025-08-05 17:10:52,194 - app.services.sd_service - ERROR - SD generation error: Stable Diffusion API error: 500
+2025-08-05 17:10:52,194 - app.api.routes - ERROR - Error generating image: Image generation failed: Stable Diffusion API error: 500
+2025-08-05 17:12:20,950 - app.main - INFO - Shutting down Sketch to Reality API...
+2025-08-05 17:12:21,409 - app.main - INFO - Starting Sketch to Reality API...
+2025-08-05 17:12:21,409 - app.main - INFO - Debug mode: True
+2025-08-05 17:12:21,409 - app.main - INFO - Stable Diffusion WebUI URL: http://127.0.0.1:7860
+2025-08-05 17:12:21,409 - app.main - INFO - Upload directory: uploads
+2025-08-05 17:12:39,749 - app.main - INFO - Shutting down Sketch to Reality API...
+2025-08-05 17:12:40,168 - app.main - INFO - Starting Sketch to Reality API...
+2025-08-05 17:12:40,168 - app.main - INFO - Debug mode: True
+2025-08-05 17:12:40,168 - app.main - INFO - Stable Diffusion WebUI URL: http://127.0.0.1:7860
+2025-08-05 17:12:40,168 - app.main - INFO - Upload directory: uploads
+2025-08-05 17:12:42,375 - app.main - INFO - Shutting down Sketch to Reality API...
+2025-08-05 17:12:46,244 - app.main - INFO - Starting Sketch to Reality API...
+2025-08-05 17:12:46,244 - app.main - INFO - Debug mode: True
+2025-08-05 17:12:46,244 - app.main - INFO - Stable Diffusion WebUI URL: http://127.0.0.1:7860
+2025-08-05 17:12:46,244 - app.main - INFO - Upload directory: uploads
+2025-08-05 17:12:58,024 - app.api.routes - INFO - Processing image: {'width': 190, 'height': 122, 'mode': 'RGB', 'format': 'JPEG'}
+2025-08-05 17:12:58,024 - app.services.sd_service - INFO - Generating image with prompt: beautiful landscape...
+2025-08-05 17:12:58,031 - app.services.sd_service - ERROR - SD API error: 500 - {"error":"ValidationError","detail":"","body":"","errors":"2 validation errors for ControlNetUnit\nresize_mode\n   (type=assertion_error)\ncontrol_mode\n  value is not a valid enumeration member; permitted: 'Balanced', 'My prompt is more important', 'ControlNet is more important' (type=type_error.enum; enum_values=[<ControlMode.BALANCED: 'Balanced'>, <ControlMode.PROMPT: 'My prompt is more important'>, <ControlMode.CONTROL: 'ControlNet is more important'>])"}
+2025-08-05 17:12:58,031 - app.services.sd_service - ERROR - SD generation error: Stable Diffusion API error: 500
+2025-08-05 17:12:58,031 - app.api.routes - ERROR - Error generating image: Image generation failed: Stable Diffusion API error: 500
+2025-08-05 17:15:15,771 - app.main - INFO - Shutting down Sketch to Reality API...
+2025-08-05 17:15:17,127 - app.main - INFO - Starting Sketch to Reality API...
+2025-08-05 17:15:17,127 - app.main - INFO - Debug mode: True
+2025-08-05 17:15:17,127 - app.main - INFO - Stable Diffusion WebUI URL: http://127.0.0.1:7860
+2025-08-05 17:15:17,127 - app.main - INFO - Upload directory: uploads
+2025-08-05 17:15:26,617 - app.api.routes - INFO - Processing image: {'width': 190, 'height': 122, 'mode': 'RGB', 'format': 'JPEG'}
+2025-08-05 17:15:26,617 - app.services.sd_service - INFO - Generating image with prompt: beautiful landscape...
+2025-08-05 17:15:26,625 - app.services.sd_service - ERROR - SD API error: 500 - {"error":"ValidationError","detail":"","body":"","errors":"2 validation errors for ControlNetUnit\nresize_mode\n   (type=assertion_error)\ncontrol_mode\n  value is not a valid enumeration member; permitted: 'Balanced', 'My prompt is more important', 'ControlNet is more important' (type=type_error.enum; enum_values=[<ControlMode.BALANCED: 'Balanced'>, <ControlMode.PROMPT: 'My prompt is more important'>, <ControlMode.CONTROL: 'ControlNet is more important'>])"}
+2025-08-05 17:15:26,625 - app.services.sd_service - ERROR - SD generation error: Stable Diffusion API error: 500
+2025-08-05 17:15:26,625 - app.api.routes - ERROR - Error generating image: Image generation failed: Stable Diffusion API error: 500
+2025-08-06 11:19:04,353 - app.main - INFO - Shutting down Sketch to Reality API...
+2025-08-06 11:19:48,867 - app.main - INFO - Starting Sketch to Reality API...
+2025-08-06 11:19:48,867 - app.main - INFO - Debug mode: True
+2025-08-06 11:19:48,867 - app.main - INFO - Stable Diffusion WebUI URL: http://127.0.0.1:7860
+2025-08-06 11:19:48,867 - app.main - INFO - Upload directory: uploads
+2025-08-06 11:20:05,004 - app.main - INFO - Shutting down Sketch to Reality API...
+2025-08-06 11:20:05,425 - app.main - INFO - Starting Sketch to Reality API...
+2025-08-06 11:20:05,425 - app.main - INFO - Debug mode: True
+2025-08-06 11:20:05,425 - app.main - INFO - Stable Diffusion WebUI URL: http://127.0.0.1:7860
+2025-08-06 11:20:05,425 - app.main - INFO - Upload directory: uploads
+2025-08-06 11:20:14,672 - app.api.routes - INFO - Processing image: {'width': 190, 'height': 122, 'mode': 'RGB', 'format': 'JPEG'}
+2025-08-06 11:20:14,673 - app.services.sd_service - INFO - Generating image with prompt: beautiful landscape...
+2025-08-06 11:20:14,680 - app.services.sd_service - ERROR - SD API error: 500 - {"error":"ValidationError","detail":"","body":"","errors":"1 validation error for ControlNetUnit\nresize_mode\n   (type=assertion_error)"}
+2025-08-06 11:20:14,680 - app.services.sd_service - ERROR - SD generation error: Stable Diffusion API error: 500
+2025-08-06 11:20:14,680 - app.api.routes - ERROR - Error generating image: Image generation failed: Stable Diffusion API error: 500
+2025-08-06 11:20:21,867 - app.api.routes - INFO - Processing image: {'width': 190, 'height': 122, 'mode': 'RGB', 'format': 'JPEG'}
+2025-08-06 11:20:21,868 - app.services.sd_service - INFO - Generating image with prompt: beautiful landscape...
+2025-08-06 11:20:21,872 - app.services.sd_service - ERROR - SD API error: 500 - {"error":"ValidationError","detail":"","body":"","errors":"1 validation error for ControlNetUnit\nresize_mode\n   (type=assertion_error)"}
+2025-08-06 11:20:21,872 - app.services.sd_service - ERROR - SD generation error: Stable Diffusion API error: 500
+2025-08-06 11:20:21,872 - app.api.routes - ERROR - Error generating image: Image generation failed: Stable Diffusion API error: 500
+2025-08-06 11:33:57,953 - app.main - INFO - Shutting down Sketch to Reality API...
+2025-08-06 11:33:58,390 - app.main - INFO - Starting Sketch to Reality API...
+2025-08-06 11:33:58,391 - app.main - INFO - Debug mode: True
+2025-08-06 11:33:58,391 - app.main - INFO - Stable Diffusion WebUI URL: http://127.0.0.1:7860
+2025-08-06 11:33:58,391 - app.main - INFO - Upload directory: uploads
+2025-08-06 11:34:18,035 - app.main - INFO - Shutting down Sketch to Reality API...
+2025-08-06 11:34:18,457 - app.main - INFO - Starting Sketch to Reality API...
+2025-08-06 11:34:18,457 - app.main - INFO - Debug mode: True
+2025-08-06 11:34:18,457 - app.main - INFO - Stable Diffusion WebUI URL: http://127.0.0.1:7860
+2025-08-06 11:34:18,457 - app.main - INFO - Upload directory: uploads
+2025-08-06 11:34:25,473 - app.main - INFO - Shutting down Sketch to Reality API...
+2025-08-06 11:34:32,492 - app.main - INFO - Starting Sketch to Reality API...
+2025-08-06 11:34:32,492 - app.main - INFO - Debug mode: True
+2025-08-06 11:34:32,492 - app.main - INFO - Stable Diffusion WebUI URL: http://127.0.0.1:7860
+2025-08-06 11:34:32,492 - app.main - INFO - Upload directory: uploads
+2025-08-06 11:34:43,217 - app.api.routes - INFO - Received request - prompt: beautiful landscape, style: cartoon
+2025-08-06 11:34:43,223 - app.api.routes - INFO - File size: 3410 bytes
+2025-08-06 11:34:43,227 - app.api.routes - INFO - Processing image: {'width': 190, 'height': 122, 'mode': 'RGB', 'format': 'JPEG'}
+2025-08-06 11:34:43,227 - app.api.routes - INFO - Sketch preprocessed, base64 length: 8604
+2025-08-06 11:34:43,227 - app.services.sd_service - INFO - Generating image with ControlNet for prompt: beautiful landscape...
+2025-08-06 11:34:43,233 - app.services.sd_service - INFO - ControlNet response status: 500
+2025-08-06 11:34:43,233 - app.services.sd_service - WARNING - ControlNet failed, trying without: 500 - {"error":"ValidationError","detail":"","body":"","errors":"2 validation errors for ControlNetUnit\nresize_mode\n   (type=assertion_error)\ncontrol_mode\n  value is not a valid enumeration member; permitted: 'Balanced', 'My prompt is more important', 'ControlNet is more important' (type=type_error.enum; enum_values=[<ControlMode.BALANCED: 'Balanced'>, <ControlMode.PROMPT: 'My prompt is more important'>, <ControlMode.CONTROL: 'ControlNet is more important'>])"}
+2025-08-06 11:34:43,233 - app.services.sd_service - INFO - Generating simple image with prompt: beautiful landscape...
+2025-08-06 11:34:43,233 - app.services.sd_service - INFO - Payload: {'prompt': 'beautiful landscape, cartoon style, animated, colorful, cel shading, Disney style', 'negative_prompt': 'photorealistic, real photo, dark, gritty', 'width': 512, 'height': 512, 'steps': 25, 'cfg_scale': 8.0, 'sampler_name': 'Euler a', 'batch_size': 1, 'n_iter': 1, 'seed': -1, 'restore_faces': False, 'tiling': False, 'do_not_save_samples': True, 'do_not_save_grid': True}
+2025-08-06 11:34:46,431 - app.services.sd_service - INFO - Response status: 200
+2025-08-06 11:34:46,431 - app.services.sd_service - INFO - SD Response keys: dict_keys(['images', 'parameters', 'info'])
+2025-08-06 11:34:46,432 - app.api.routes - INFO - Image generated successfully for prompt: beautiful landscape...
+2025-08-06 11:48:02,842 - app.api.routes - INFO - Received request - prompt: a beautiful landscape, style: realistic
+2025-08-06 11:48:02,847 - app.api.routes - INFO - File size: 3410 bytes
+2025-08-06 11:48:02,847 - app.api.routes - INFO - Processing image: {'width': 190, 'height': 122, 'mode': 'RGB', 'format': 'JPEG'}
+2025-08-06 11:48:02,848 - app.api.routes - INFO - Sketch preprocessed, base64 length: 8604
+2025-08-06 11:48:02,848 - app.services.sd_service - INFO - Generating image with ControlNet for prompt: a beautiful landscape...
+2025-08-06 11:48:02,853 - app.services.sd_service - INFO - ControlNet response status: 500
+2025-08-06 11:48:02,853 - app.services.sd_service - WARNING - ControlNet failed, trying without: 500 - {"error":"ValidationError","detail":"","body":"","errors":"2 validation errors for ControlNetUnit\nresize_mode\n   (type=assertion_error)\ncontrol_mode\n  value is not a valid enumeration member; permitted: 'Balanced', 'My prompt is more important', 'ControlNet is more important' (type=type_error.enum; enum_values=[<ControlMode.BALANCED: 'Balanced'>, <ControlMode.PROMPT: 'My prompt is more important'>, <ControlMode.CONTROL: 'ControlNet is more important'>])"}
+2025-08-06 11:48:02,853 - app.services.sd_service - INFO - Generating simple image with prompt: a beautiful landscape...
+2025-08-06 11:48:02,853 - app.services.sd_service - INFO - Payload: {'prompt': 'a beautiful landscape, photorealistic, high quality, detailed, 8k resolution, professional photography', 'negative_prompt': 'cartoon, anime, drawing, sketch, painting, illustration, low quality, blurry', 'width': 512, 'height': 512, 'steps': 30, 'cfg_scale': 7.5, 'sampler_name': 'DPM++ 2M Karras', 'batch_size': 1, 'n_iter': 1, 'seed': -1, 'restore_faces': False, 'tiling': False, 'do_not_save_samples': True, 'do_not_save_grid': True}
+2025-08-06 11:48:06,324 - app.services.sd_service - INFO - Response status: 200
+2025-08-06 11:48:06,326 - app.services.sd_service - INFO - SD Response keys: dict_keys(['images', 'parameters', 'info'])
+2025-08-06 11:48:06,326 - app.api.routes - INFO - Image generated successfully for prompt: a beautiful landscape...
+2025-08-06 11:55:10,696 - app.api.routes - INFO - Received request - prompt: realistic house with a beautiful landscape, style: realistic
+2025-08-06 11:55:10,700 - app.api.routes - INFO - File size: 3410 bytes
+2025-08-06 11:55:10,700 - app.api.routes - INFO - Processing image: {'width': 190, 'height': 122, 'mode': 'RGB', 'format': 'JPEG'}
+2025-08-06 11:55:10,701 - app.api.routes - INFO - Sketch preprocessed, base64 length: 8604
+2025-08-06 11:55:10,701 - app.services.sd_service - INFO - Generating image with ControlNet for prompt: realistic house with a beautiful landscape...
+2025-08-06 11:55:10,705 - app.services.sd_service - INFO - ControlNet response status: 500
+2025-08-06 11:55:10,705 - app.services.sd_service - WARNING - ControlNet failed, trying without: 500 - {"error":"ValidationError","detail":"","body":"","errors":"2 validation errors for ControlNetUnit\nresize_mode\n   (type=assertion_error)\ncontrol_mode\n  value is not a valid enumeration member; permitted: 'Balanced', 'My prompt is more important', 'ControlNet is more important' (type=type_error.enum; enum_values=[<ControlMode.BALANCED: 'Balanced'>, <ControlMode.PROMPT: 'My prompt is more important'>, <ControlMode.CONTROL: 'ControlNet is more important'>])"}
+2025-08-06 11:55:10,705 - app.services.sd_service - INFO - Generating simple image with prompt: realistic house with a beautiful landscape...
+2025-08-06 11:55:10,705 - app.services.sd_service - INFO - Payload: {'prompt': 'realistic house with a beautiful landscape, photorealistic, high quality, detailed, 8k resolution, professional photography', 'negative_prompt': 'cartoon, anime, drawing, sketch, painting, illustration, low quality, blurry', 'width': 512, 'height': 512, 'steps': 30, 'cfg_scale': 7.5, 'sampler_name': 'DPM++ 2M Karras', 'batch_size': 1, 'n_iter': 1, 'seed': -1, 'restore_faces': False, 'tiling': False, 'do_not_save_samples': True, 'do_not_save_grid': True}
+2025-08-06 11:55:14,152 - app.services.sd_service - INFO - Response status: 200
+2025-08-06 11:55:14,154 - app.services.sd_service - INFO - SD Response keys: dict_keys(['images', 'parameters', 'info'])
+2025-08-06 11:55:14,154 - app.api.routes - INFO - Image generated successfully for prompt: realistic house with a beautiful landscape...
+2025-08-06 12:02:58,494 - app.api.routes - INFO - Received request - prompt: a beautiful silmilar and realistic house, style: realistic
+2025-08-06 12:02:58,499 - app.api.routes - INFO - File size: 3410 bytes
+2025-08-06 12:02:58,499 - app.api.routes - INFO - Processing image: {'width': 190, 'height': 122, 'mode': 'RGB', 'format': 'JPEG'}
+2025-08-06 12:02:58,500 - app.api.routes - INFO - Sketch preprocessed, base64 length: 8604
+2025-08-06 12:02:58,500 - app.services.sd_service - INFO - Generating image with ControlNet for prompt: a beautiful silmilar and realistic house...
+2025-08-06 12:02:58,504 - app.services.sd_service - INFO - ControlNet response status: 500
+2025-08-06 12:02:58,504 - app.services.sd_service - WARNING - ControlNet failed, trying without: 500 - {"error":"ValidationError","detail":"","body":"","errors":"2 validation errors for ControlNetUnit\nresize_mode\n   (type=assertion_error)\ncontrol_mode\n  value is not a valid enumeration member; permitted: 'Balanced', 'My prompt is more important', 'ControlNet is more important' (type=type_error.enum; enum_values=[<ControlMode.BALANCED: 'Balanced'>, <ControlMode.PROMPT: 'My prompt is more important'>, <ControlMode.CONTROL: 'ControlNet is more important'>])"}
+2025-08-06 12:02:58,504 - app.services.sd_service - INFO - Generating simple image with prompt: a beautiful silmilar and realistic house...
+2025-08-06 12:02:58,504 - app.services.sd_service - INFO - Payload: {'prompt': 'a beautiful silmilar and realistic house, photorealistic, high quality, detailed, 8k resolution, professional photography', 'negative_prompt': 'cartoon, anime, drawing, sketch, painting, illustration, low quality, blurry', 'width': 512, 'height': 512, 'steps': 30, 'cfg_scale': 7.5, 'sampler_name': 'DPM++ 2M Karras', 'batch_size': 1, 'n_iter': 1, 'seed': -1, 'restore_faces': False, 'tiling': False, 'do_not_save_samples': True, 'do_not_save_grid': True}
+2025-08-06 12:03:01,959 - app.services.sd_service - INFO - Response status: 200
+2025-08-06 12:03:01,960 - app.services.sd_service - INFO - SD Response keys: dict_keys(['images', 'parameters', 'info'])
+2025-08-06 12:03:01,960 - app.api.routes - INFO - Image generated successfully for prompt: a beautiful silmilar and realistic house...
+2025-08-06 12:04:09,526 - app.api.routes - INFO - Received request - prompt: a beautiful silmilar and realistic house, style: realistic
+2025-08-06 12:04:09,533 - app.api.routes - INFO - File size: 3410 bytes
+2025-08-06 12:04:09,533 - app.api.routes - INFO - Processing image: {'width': 190, 'height': 122, 'mode': 'RGB', 'format': 'JPEG'}
+2025-08-06 12:04:09,533 - app.api.routes - INFO - Sketch preprocessed, base64 length: 8604
+2025-08-06 12:04:09,533 - app.services.sd_service - INFO - Generating image with ControlNet for prompt: a beautiful silmilar and realistic house...
+2025-08-06 12:04:09,538 - app.services.sd_service - INFO - ControlNet response status: 500
+2025-08-06 12:04:09,538 - app.services.sd_service - WARNING - ControlNet failed, trying without: 500 - {"error":"ValidationError","detail":"","body":"","errors":"2 validation errors for ControlNetUnit\nresize_mode\n   (type=assertion_error)\ncontrol_mode\n  value is not a valid enumeration member; permitted: 'Balanced', 'My prompt is more important', 'ControlNet is more important' (type=type_error.enum; enum_values=[<ControlMode.BALANCED: 'Balanced'>, <ControlMode.PROMPT: 'My prompt is more important'>, <ControlMode.CONTROL: 'ControlNet is more important'>])"}
+2025-08-06 12:04:09,538 - app.services.sd_service - INFO - Generating simple image with prompt: a beautiful silmilar and realistic house...
+2025-08-06 12:04:09,538 - app.services.sd_service - INFO - Payload: {'prompt': 'a beautiful silmilar and realistic house, photorealistic, high quality, detailed, 8k resolution, professional photography', 'negative_prompt': 'cartoon, anime, drawing, sketch, painting, illustration, low quality, blurry', 'width': 512, 'height': 512, 'steps': 30, 'cfg_scale': 7.5, 'sampler_name': 'DPM++ 2M Karras', 'batch_size': 1, 'n_iter': 1, 'seed': -1, 'restore_faces': False, 'tiling': False, 'do_not_save_samples': True, 'do_not_save_grid': True}
+2025-08-06 12:04:12,978 - app.services.sd_service - INFO - Response status: 200
+2025-08-06 12:04:12,980 - app.services.sd_service - INFO - SD Response keys: dict_keys(['images', 'parameters', 'info'])
+2025-08-06 12:04:12,980 - app.api.routes - INFO - Image generated successfully for prompt: a beautiful silmilar and realistic house...
+2025-08-06 12:04:16,078 - app.api.routes - INFO - Received request - prompt: a beautiful silmilar and realistic house, style: realistic
+2025-08-06 12:04:16,083 - app.api.routes - INFO - File size: 3410 bytes
+2025-08-06 12:04:16,083 - app.api.routes - INFO - Processing image: {'width': 190, 'height': 122, 'mode': 'RGB', 'format': 'JPEG'}
+2025-08-06 12:04:16,083 - app.api.routes - INFO - Sketch preprocessed, base64 length: 8604
+2025-08-06 12:04:16,084 - app.services.sd_service - INFO - Generating image with ControlNet for prompt: a beautiful silmilar and realistic house...
+2025-08-06 12:04:16,087 - app.services.sd_service - INFO - ControlNet response status: 500
+2025-08-06 12:04:16,087 - app.services.sd_service - WARNING - ControlNet failed, trying without: 500 - {"error":"ValidationError","detail":"","body":"","errors":"2 validation errors for ControlNetUnit\nresize_mode\n   (type=assertion_error)\ncontrol_mode\n  value is not a valid enumeration member; permitted: 'Balanced', 'My prompt is more important', 'ControlNet is more important' (type=type_error.enum; enum_values=[<ControlMode.BALANCED: 'Balanced'>, <ControlMode.PROMPT: 'My prompt is more important'>, <ControlMode.CONTROL: 'ControlNet is more important'>])"}
+2025-08-06 12:04:16,088 - app.services.sd_service - INFO - Generating simple image with prompt: a beautiful silmilar and realistic house...
+2025-08-06 12:04:16,088 - app.services.sd_service - INFO - Payload: {'prompt': 'a beautiful silmilar and realistic house, photorealistic, high quality, detailed, 8k resolution, professional photography', 'negative_prompt': 'cartoon, anime, drawing, sketch, painting, illustration, low quality, blurry', 'width': 512, 'height': 512, 'steps': 30, 'cfg_scale': 7.5, 'sampler_name': 'DPM++ 2M Karras', 'batch_size': 1, 'n_iter': 1, 'seed': -1, 'restore_faces': False, 'tiling': False, 'do_not_save_samples': True, 'do_not_save_grid': True}
+2025-08-06 12:04:19,525 - app.services.sd_service - INFO - Response status: 200
+2025-08-06 12:04:19,527 - app.services.sd_service - INFO - SD Response keys: dict_keys(['images', 'parameters', 'info'])
+2025-08-06 12:04:19,527 - app.api.routes - INFO - Image generated successfully for prompt: a beautiful silmilar and realistic house...
